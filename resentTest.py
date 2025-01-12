@@ -9,7 +9,7 @@ img_url = 'framed.jpg'
 raw_image = Image.open(img_url).convert('RGB')
 
 # conditional image captioning
-text = "the face of"
+text = "facial details of"
 inputs = processor(raw_image, text, return_tensors="pt").to("cuda")
 
 out = model.generate(**inputs)
