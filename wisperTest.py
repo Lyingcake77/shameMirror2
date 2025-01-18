@@ -6,7 +6,7 @@ response: ChatResponse = chat(model='llama2-uncensored', messages=[
   {
     'role': 'user',
    #'content': 'Generate an insult based on the following features about their face: "large nose, crooked teeth, and an asymmetrical face"',
-    'content': 'Generate an insult based on the following criteria: there is a man with a beard and a mustache in a room',
+    'content': 'Generate an insult based on the following criteria: arafed man wearing a blue hat and sunglasses with a gold chain around his neck',
   },
 ])
 print(response['message']['content'])

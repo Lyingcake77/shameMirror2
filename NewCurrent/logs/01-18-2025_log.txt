@@ -1,0 +1,3 @@
+#log example
+#date-time, image-file-name, sound-file-name, speach-to-text, image-caption-text, llm-response
+2022-09-20 10:27:21.240752, 00000000-0000-0000-0000-000000000000.jpg, 00000000-0000-0000-0000-000000000000.wav, "", "there is a man with a beard and a red shirt sitting in a room", "That man with the beard and red shirt looks like he's going to spill his coffee all over your floor."
